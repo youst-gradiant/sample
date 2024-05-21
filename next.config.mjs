@@ -3,7 +3,7 @@ const nextConfig = {
   rewrites: () => [
     {
       source: "/:path*",
-      destination: "http://192.168.10.157:3100/:path*",
+      destination: "http://218.237.253.138:3100/:path*",
     },
   ],
 };
