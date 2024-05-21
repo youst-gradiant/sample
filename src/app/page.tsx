@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   const fetchUsers = async () => {
-    const response = await fetch("http://218.237.253.138:3100/api/posts");
+    const response = await fetch("/api/posts");
 
     console.log(response);
   };
