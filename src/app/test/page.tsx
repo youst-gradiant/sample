@@ -2,7 +2,7 @@
 
 export default function Test() {
   const fetchUsers = async () => {
-    const response = await fetch("https://sample-six-nu.vercel.app/api/posts");
+    const response = await fetch("/api/posts");
     const data = await response.json();
     /*  const response = await fetch("http://218.237.253.138:3100/api/posts"); */
 
