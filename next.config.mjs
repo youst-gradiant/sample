@@ -2,8 +2,8 @@
 const nextConfig = {
   rewrites: () => [
     {
-      source: "/api/:path*",
-      destination: "http://218.237.253.139",
+      source: "/todos/:path*",
+      destination: "https://jsonplaceholder.typicode.com",
       //destination: "http://localhost:3100/api/:path*",
     },
   ],
