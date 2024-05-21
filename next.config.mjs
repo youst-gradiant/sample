@@ -2,8 +2,8 @@
 const nextConfig = {
   rewrites: () => [
     {
-      source: "/api/posts",
-      destination: "http://218.237.253.138:3100/api/posts",
+      source: "/:path*",
+      destination: "http://192.168.10.157:3100/:path*",
     },
   ],
 };
