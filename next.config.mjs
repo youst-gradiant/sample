@@ -3,7 +3,8 @@ const nextConfig = {
   rewrites: () => [
     {
       source: "/todos/:path*",
-      destination: "https://jsonplaceholder.typicode.com/todos/:path*",
+      destination:
+        "http://soonwidot.co.kr/rank/comment.php?mode=l&rc_id=3&page=0/:path*",
       //destination: "http://localhost:3100/api/:path*",
     },
   ],
