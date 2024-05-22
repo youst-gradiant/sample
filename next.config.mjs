@@ -2,10 +2,9 @@
 const nextConfig = {
   rewrites: () => [
     {
-      source: "/todos/:path*",
-      destination:
-        "http://soonwidot.co.kr/rank/comment.php?mode=l&rc_id=3&page=0/:path*",
-      //destination: "http://localhost:3100/api/:path*",
+      source: "/api/:path*",
+      destination: "http://218.237.253.139:3100/api/:path*",
+      //destination: "http://192.168.10.157:3100/api/:path*",
     },
   ],
 };
